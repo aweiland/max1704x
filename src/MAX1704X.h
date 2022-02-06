@@ -24,7 +24,7 @@
 #define MAX1704X_H
 
 #include <Arduino.h>
-#include <Wire.h>
+#include "Wire.h"
 
 #define toLowByte(w)              ((uint8_t) ((w) & 0xff))
 #define toHighByte(w)             ((uint8_t) ((w) >> 8))
